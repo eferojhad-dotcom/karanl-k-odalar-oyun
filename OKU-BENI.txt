@@ -1,0 +1,26 @@
+ARKA ODALAR - MASAÜSTÜ SÜRÜMÜ
+=============================
+
+Gerekenler: Node.js (https://nodejs.org, LTS sürümü) ve internet (ilk kurulum için).
+
+1) Bu klasörü bir yere çıkar (zip'ten).
+2) Klasörün içinde bir terminal / komut istemi aç ve şunu yaz:
+
+     npm install
+
+3) Oyunu çalıştırmak için:
+
+     npm start
+
+4) Tek bir çalıştırılabilir dosya (.exe) yapmak için:
+
+     npm run build:win        (Windows, "dist" klasöründe .exe çıkar)
+     npm run build:mac        (macOS)
+     npm run build:linux      (Linux, AppImage)
+
+Notlar:
+- Tam ekran: F11
+- Masaüstü sürümünde fare kilidi sorunsuz çalışır. Fareyle dön, W A S D ile yürü.
+- Yazı tipleri internet olmadan sistem yazı tipine düner. Oyun yine çalışır.
+- Windows'ta .exe'yi başka bilgisayara götürmek için "dist" içindeki
+  "Arka Odalar ... .exe" dosyasını kopyalaman yeterli (kurulum gerekmez).
